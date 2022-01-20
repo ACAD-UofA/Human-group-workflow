@@ -3,7 +3,13 @@ A philosophical overview of everything technical that we do from lab to bioinfor
 
 ## 1 - From Bone to DNA
 
-trambarn, pre-pcr & clean lab
+Pre-PCR work, done in ancient DNA lab with following anti-contamination protocols.
+
+![image](https://user-images.githubusercontent.com/78726635/150440157-78745565-d057-449b-bc4e-3a72c987af44.png) 
+
+
+
+### Bones:
 teeth (usually roots), petrous, (get pics), humerous and rib bones are less common but can be used
 bone extraction is messy, so careful not to contaminate. Change gloves and clean a lot etc. 
 
