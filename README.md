@@ -2,40 +2,44 @@
 A philosophical overview of everything technical that we do from lab to bioinformatics (discussions from 2022 humans group)
 
 ## 1 - From Bone to DNA
+### Lab
+This is pre-PCR work, done in ancient DNA lab with following anti-contamination protocols.
 
-Pre-PCR work, done in ancient DNA lab with following anti-contamination protocols.
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/78726635/150440157-78745565-d057-449b-bc4e-3a72c987af44.png">
 
-![image](https://user-images.githubusercontent.com/78726635/150440157-78745565-d057-449b-bc4e-3a72c987af44.png) 
+### Bones
+- Most often teeth are used, usually the roots
+- petrous bone (dense bone with good DNA preservation, part of the inner ear structure) 
+- humerous, rib or other bones are less common but can be used.
+
+<img height="350" alt="tooth" src="https://user-images.githubusercontent.com/78726635/150442139-0fc1f26f-d41b-4b74-bb40-6c22d14193d3.png"> <img height="350" alt="petrous" src="https://user-images.githubusercontent.com/78726635/150442000-eda707b9-cade-43f6-9e15-a9519b97e625.jpg">
 
 
+Bone extraction is messy, so must be careful not to cross-contaminate. Change gloves and clean a lot etc. 
 
-### Bones:
-teeth (usually roots), petrous, (get pics), humerous and rib bones are less common but can be used
-bone extraction is messy, so careful not to contaminate. Change gloves and clean a lot etc. 
+1. Clean bone with bleach & alcohol
+2. Cut crown away from the root with disk dremel (in laminar flow hood).
+3. Try to get rid of dental pulp (the part where blood goes and most bactieria are). 
+4. Pulverise into powder at room temperature and use powder for DNA extraction
 
-first clean with bleach & alcohol, then cut crown away from the root with disk dremel (in laminar flow hood).
 
-try to get rid of dental pulp (the part where blood goes and most bactieria are). use vibrating cone thing to pulverise pulp - apparently good for getting rid of infections the person may have had
-pulverise into powder and use that for DNA extraction
+### DNA Extraction 
+Two day protocol
+Day One:
+1. Input 0.1g bone powder to extraction & keep the rest as backup powder. more powder could result in more quantity of DNA and better complexity theoretically.
+2. Use proteinase K to degrade protein
+3. EDTA breaks calcium - overnight incubation.
+Day Two:
+4. Add silica in tube and spin down, remove supernatant 
+5. Silica binds DNA (Silica is broad range so good for capturing short molecules, like aDNA)
+6. Wash with binding buffer
+7. Many ethanol washes
+8. Elute dna from silica with TLE and 50°C heat
+9. Result = "Stock solution" and "working solution"
+10. Quantify
 
-Petrous bone- dense bone with good DNA preservation, part of the inner ear structure
-
-bone pulverisor kind of like a piston, done at room temp
-input 0.1g bone powder to extraction, leave the rest as backup powder. more powder could result in more quantity of DNA and better complexity theoretically.
-2 day protocol
-proteinase k degrades protein
-EDTA breaks calcium - overnight incubation.
-
-2nd day - silica in tube and spin down, remove supernatant (new protocol with beads out though) binds DNA (broad range so good for capturing short molecules
-
-then lots of cleaning with binding buffer, many ethanol washes
-elute dna from silica with te and heat
-
-end up with master stock and cleaning stock, 
-quantify and done :)
-
-Extraction Blank Control = scoop air from the hood into empty tube, and treat as if it is a sample, to have a control for underlying lab contamination. 
-
+For every extraction batch, do an EBC or Extraction Blank Control, to test underlying contamination of the lab \
+- Scoop air from the hood into empty tube, treat as if it is a sample following the same protocol
 
 ## 2 - Library Preparation Methods I
 
