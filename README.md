@@ -17,24 +17,26 @@ This is pre-PCR work, done in ancient DNA lab with following anti-contamination 
 
 Bone extraction is messy, so must be careful not to cross-contaminate. Change gloves and clean a lot etc. 
 
-1. Clean bone with bleach & alcohol
-2. Cut crown away from the root with disk dremel (in laminar flow hood).
-3. Try to get rid of dental pulp (the part where blood goes and most bactieria are). 
-4. Pulverise into powder at room temperature and use powder for DNA extraction
+1. Clean with bleach & alcohol (only teeth)
+2. scraping off the surface
+3. Cut crown away from the root with disk dremel (in laminar flow hood) or cut the part of the cochlea 
+4. Try to get rid of dental pulp (the part where blood goes and most bactieria are). 
+5. Pulverise into powder at room temperature and use powder for DNA extraction
 
 
 ### DNA Extraction 
 Two day protocol
 Day One:
 1. Input 0.1g bone powder to extraction & keep the rest as backup powder. more powder could result in more quantity of DNA and better complexity theoretically.
-2. Use proteinase K to degrade protein
-3. EDTA breaks calcium - overnight incubation.
+2. Pre-digestion with EDTA 
+3. EDTA (breaks calcium) + proteinase K (degrade protein) - overnight incubation.
+
 Day Two:
 4. Add silica in tube and spin down, remove supernatant 
 5. Silica binds DNA (Silica is broad range so good for capturing short molecules, like aDNA)
-6. Wash with binding buffer
+6. Resuspend with binding buffer
 7. Many ethanol washes
-8. Elute dna from silica with TLE and 50°C heat
+8. Elute DNA from silica with TLE and 50°C heat
 9. Result = "Stock solution" and "working solution"
 10. Quantify
 
