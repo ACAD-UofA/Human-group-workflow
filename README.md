@@ -32,13 +32,13 @@ Day One:
 3. EDTA (breaks calcium) + proteinase K (degrade protein) - overnight incubation.
 
 Day Two:
-4. Add silica in tube and spin down, remove supernatant 
-5. Silica binds DNA (Silica is broad range so good for capturing short molecules, like aDNA)
-6. Resuspend with binding buffer
-7. Many ethanol washes
-8. Elute DNA from silica with TLE and 50°C heat
-9. Result = "Stock solution" and "working solution"
-10. Quantify
+1. Add silica in tube and spin down, remove supernatant 
+2. Silica binds DNA (Silica is broad range so good for capturing short molecules, like aDNA)
+3.  with binding buffer
+4. Many ethanol washes
+5. Elute DNA from silica with TLE and 50°C heat
+6. Result = "Stock solution" and "working solution"
+7. Quantify
 
 For every extraction batch, do an EBC or Extraction Blank Control, to test underlying contamination of the lab \
 - Scoop air from the hood into empty tube, treat as if it is a sample following the same protocol
