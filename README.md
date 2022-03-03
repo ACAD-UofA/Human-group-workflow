@@ -43,11 +43,32 @@ Day Two:
 For every extraction batch, do an EBC or Extraction Blank Control, to test underlying contamination of the lab \
 - Scoop air from the hood into empty tube, treat as if it is a sample following the same protocol
 
-## 2 - Library Preparation Methods I
+## 2 - Library Preparation Methods - Ancient DNA
 
-UDG half treatment
+### Jena Protocol
 
-## 3 - Library Preparation Methods II
+DNA Post-Mortem Damage can happen very fast but still depends on the environmental condition such as temp, humidity, and age of the remains. 
+ - Deaminated Cytosines into Uracil 
+ - Extensive fragmentatio (endup with sticky end fragment and uracil at the end of hanging)
+
+Due nature of deamination, there is an effort to polish the DNA
+ - Make 5’ and 3’ blunt end using polymerase, sticky end (Uracil end will have A complement)
+ - T4 PNK (Polynucleotide Phospatase) —> add Phosphate groups on 5’ so the ligation can be performed between adapter and “Insert” 
+ - Ligate the adapter. In the adapter, we add some unique identifier (index) to differentiate between samples. However , there is absent of ligation in 3’
+ - Add Bst (sort of Polymerase) to add complement from adapter which ligate to 5’. Here is the template for the library  
+ - During the amplification, we will have T (Thymine) - A (Adenine) on each 5’ and 3’ instead of Uracil (U)
+
+Treatment to remove single stranded hang of uracil (Full UDG Repair ) -
+ - Add T4 PNK to add phosphoriulate your DNA
+ - USERS (Commercial reagent with UDG and EndoVIII) will recognise U and create abasic site to cut the segment with uracil and phosphorilates both ends
+ - T4 PNK will create OH on 3’
+ - Polymerase will ligate the fragment.
+ - Follow protocol 4-5 in upper.
+
+Half UDG repair will gave one of the end Uracil intact by adding UGI after add USERS reagen which block the UDG on one of the sticky end. 
+
+
+## 3 - Library Preparation Methods - Modern DNA
 
 ## 4 - Library Enrichment Methods
 
