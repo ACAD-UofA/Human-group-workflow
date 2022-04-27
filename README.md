@@ -69,6 +69,21 @@ Half UDG repair will gave one of the end Uracil intact by adding UGI after add U
 
 
 ## 3 - Library Preparation Methods - Modern DNA
+- PCR free libraries for 30x coverage, it’s enough DNA (1ug of human DNA)
+
+
+#### NexTera DNA Flex lib prep kit:
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/78726635/165444861-0932bef3-513f-46de-9dd6-4ee9b4fcee49.png">
+- DNA not fragmented (mega bp), the longer DNA you retain, the better coverage you’ll get
+- Illumina à 150bp longest read on each strand (total of 250-300bp, only ~50bp overlap)
+
+#### Fragmentation of DNA aka tagmentation: 
+#### Enzyme (cuts DNA down to 200-400bp) and incorporates general adaptors in one step, during PCR amplification indexes
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/78726635/165445241-01dec428-6914-4534-be55-7b001e818e1e.png">
+
+- Sequencing
+- PCR free
+- Sanger
 
 ## 4 - Library Enrichment Methods
 
