@@ -117,25 +117,84 @@ First, all DNA fragments in a library have Illumina adapters added to them. Bloc
 - It’s recommended not to pool more than 4 samples for modern and not to pool at all for ancient DNA, but we do it anyway to save time and money. This does run the risk of one sample at high endogenous content and/or concentration taking over and winning the competition for enrichment with poorer quality samples, so you could lose reads from those. 
 - Here is DIY bait creation in 3 easy steps with Xavi: First amplify your fragments. Then ampure purify them, nanodrop (to determine conc) and pool (to get equimolar quantities). Then we do in vitro DNA to RNA transcription. Then clean up fragments using an enzyme, and biotinylate your fragments with UV (crosslink them together)...and VOILA BON APPETIT!!
 
-## 5 - Other pre-sequencing methods 
+## 5 - Sequencing Methods
 
-## 6 - Sequencing Methods
+#### History
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/78726635/167087252-907edd7c-edf7-4a35-8b6c-e46bc895ee0f.png">
 
-## 7 - SeqData Processing I (Raw data --> mapping)
+•	Initial goal was to sequence billions of short molecules and align them, but it was harder to do long reads.
+•	In 2010s long read sequencing appeared with pacbio in California, and Oxford nanopore developed in UK.
 
-## 8 - SeqData Processing II (Mapped data --> Variant Calling)
+## Sanger Sequencing
+Must do PCR, only up to 1000bp at a time, how the human genome project was achieved \
+Typical output: \
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/78726635/167088450-d7b47acd-8152-4e64-adca-297ae7bd5669.png">
 
-## 9 - Popgen I (admixture and ancestry)
+Process:
+-	Polymerase binds double stranded DNA, and extends from primer site base by base incorporating dNTPs (synthetic nucleotides).
+-	Add some proportion of fluorescent dntps (ddNTPs) that end the extention reaction, so resulting solution has every possible fragment length.
+-	Run through acrylamide gel (which has better resolution than agarose gel)
+-	This will separate shorter to longer molecules and you can read the DNA sequence up the gel
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/78726635/167088141-a1d694f3-bdf9-4169-9eb5-687325dfbe11.png">
 
-## 10 - Popgen II (F-statistics)
+-	Load gel & transfer onto membrane (essentially a paper blot)
+-	Read with xray and develop xray image (for radioisotope tagging)
+<img width="380" alt="image" src="https://user-images.githubusercontent.com/78726635/167088189-66a898b0-bdcc-4f53-b762-359fd9f460a5.png">
 
-## 11 - Popgen III (Mitochondrial data and other specific markers)
+-	Later developed into camera reading for light emitting tags
+-	Then developed capilliary gels with smaller volumes and achieve quicker 
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/78726635/167088304-a4b15413-d46e-46c3-b938-e632164c7f17.png">
 
-## 12 - Selection
+### High Throuput Sequencing
 
-## 13 - Gene annotation/pathways
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/78726635/167088806-9d185ffa-905f-4df0-9033-51227ce18e2f.png">
 
-## 14 - General Statisitcs
+- 454 sequencing was essentially Sanger but massively parallel.
 
-## 15 - Modelling
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/78726635/167089666-d9708643-a9fb-41bd-a037-70cd52bc6a6b.png">
+
+- Illumina developed a monopoly on HTS sequencers 
+
+### Long-read sequencers
+- long read, single molecule seq by Pacific Biosciences:
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/78726635/167090445-d066a6cb-facc-4f9b-a5fa-918be6b0b064.png">
+
+- Long-read, single molecule sequencing by Oxford Nanopore Technology:
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/78726635/167090695-49c2daca-b249-4e9a-8dcd-cd3bb92c2354.png">
+
+### Sequencing itself
+#### Various methods to immobilise and sequence DNA strands:
+<img width="689" alt="image" src="https://user-images.githubusercontent.com/78726635/167091311-e697387c-d19e-4444-bab9-b7e6e4cf8cf8.png">
+
+#### Making DNA libraries and sequencing by synthesis (Illumina):
+<img width="711" alt="image" src="https://user-images.githubusercontent.com/78726635/167092418-b01d7e47-0492-4b39-af5c-8b9729f968e6.png">
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/78726635/167092571-c4709c65-4fa2-4dc9-b6f1-013ed73bb3fe.png">
+
+#### SMRT (Single Molecule Real Time) sequencing (Pacific Biosciences)
+<img width="1100" alt="image" src="https://user-images.githubusercontent.com/78726635/167092690-d3e1d436-f7a2-4159-873d-5376e1783247.png">
+<img width="1423" alt="image" src="https://user-images.githubusercontent.com/78726635/167092874-47e9821c-f6d6-4bae-96f1-dadf76d331ba.png">
+Can detect the base, AND the epigenetic modification to the base
+
+#### nanopore sequencing technology
+<img width="770" alt="image" src="https://user-images.githubusercontent.com/78726635/167093056-f689bf87-95d6-4539-822b-7381189000a6.png">
+Can detect the base, AND the epigenetic modification to the base
+
+
+## 6 - SeqData Processing I (Raw data --> mapping)
+
+## 7 - SeqData Processing II (Mapped data --> Variant Calling)
+
+## 8 - Popgen I (admixture and ancestry)
+
+## 9 - Popgen II (F-statistics)
+
+## 10 - Popgen III (Mitochondrial data and other specific markers)
+
+## 11 - Selection
+
+## 12 - Gene annotation/pathways
+
+## 13 - General Statisitcs
+
+## 14 - Modelling
 
